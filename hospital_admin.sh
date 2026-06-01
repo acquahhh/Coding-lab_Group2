@@ -16,4 +16,4 @@ initialize_system() {
     fi
     echo "Directory initialization complete."
 }
-#updated the function to wrap mkdir with if [ ! -d ] checks 
+#updated the function to wrap mkdir with if [ ! -d ] checks. 
