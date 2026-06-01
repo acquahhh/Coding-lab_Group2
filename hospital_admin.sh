@@ -12,3 +12,4 @@ initialize_system
 secure_data
 echo "Security Environment Secured"
 date
+// This scrip lets you know that the environment is secure.
