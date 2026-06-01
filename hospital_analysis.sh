@@ -1,6 +1,5 @@
 process_vitals() {
 	echo "Processing critical vitals..."
-	#TODO: add grep logic
     mkdir -p reports
     echo "# Critical Alerts — $(date)" > reports/critical_alerts.txt
     grep "CRITICAL" active_logs/heart_rate.log | \
