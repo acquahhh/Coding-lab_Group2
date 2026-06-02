@@ -13,7 +13,7 @@ process_vitals() {
 }
 
 water_audit() {
-    awk -F',' '/ICU_WATER_RESERVE/ {sum+=$3; count++}
+    awk -F'|' '/ICU_WATER_RESERVE/ {sum+=$3; count++}
     END {
         printf "+---------------------------------+\n"
         printf "| ICU Water Reserve Audit         |\n"
