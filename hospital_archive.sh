@@ -1,6 +1,6 @@
 #!/bin/bash
 TIMESTAMP=$(date '+%Y%m%d_%H%M')
-for LOG in heart_rate temperature water_usage; do
+for LOG in heart_rate_log temperature_log water_usage_log; do
     SRC="active_logs/${LOG}.log"
     DEST="archived_logs/${LOG}_${TIMESTAMP}.log"
     if [ -f "$SRC" ]; then
