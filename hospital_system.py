@@ -99,11 +99,31 @@ def stop():
             os.remove(PID_FILE)
     else:
         print("No running system found.")
+def process_vitals():
+    """Extract CRITICAL alerts from Heart Rate and Temperature logs using grep and awk."""
+    os.makedirs("reports", exist_ok=True)
+
+    # Write header
+    os.system("echo -e 'Timestamp | Device_ID | Value | Source\n------------------------------------------------------------' > reports/critical_alerts.txt")
+
+    # Heart Rate CRITICAL rows
+    os.system("echo '# Heart Rate CRITICAL Alerts' >> reports/critical_alerts.txt")
+    os.system("grep 'CRITICAL' active_logs/heart_rate_log.log | awk -F ' \\| ' '{print $1 \" | \" $2 \" | \" $3 \" | Heart Rate\"}' >> reports/critical_alerts.txt")
+
+    # Blank line
+    os.system("echo '' >> reports/critical_alerts.txt")
+
+    # Temperature CRITICAL rows
+    os.system("echo '# Temperature CRITICAL Alerts' >> reports/critical_alerts.txt")
+    os.system("grep 'CRITICAL' active_logs/temperature_log.log | awk -F ' \\| ' '{print $1 \" | \" $2 \" | \" $3 \" | Temperature\"}' >> reports/critical_alerts.txt")
+
+    print("Critical alerts saved to reports/critical_alerts.txt")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: ./hospital_system.py [start|stop]")
+        print("Usage: ./hospital_system.py [start|stop|vitals]")
         sys.exit(1)
     cmd = sys.argv[1].lower()
     if cmd == "start": start()
     elif cmd == "stop": stop()
+    elif cmd == "vitals": process_vitals()
