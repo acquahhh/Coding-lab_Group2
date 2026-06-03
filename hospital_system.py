@@ -99,6 +99,7 @@ def stop():
             os.remove(PID_FILE)
     else:
         print("No running system found.")
+<<<<<<< HEAD
 def process_vitals():
     """Extract CRITICAL alerts from Heart Rate and Temperature logs using grep and awk."""
     os.makedirs("reports", exist_ok=True)
@@ -122,8 +123,17 @@ def process_vitals():
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: ./hospital_system.py [start|stop|vitals]")
+=======
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: ./hospital_system.py [start|stop]")
+>>>>>>> 6399826c9dfd1920340404734d18c15cfbcb6af1
         sys.exit(1)
     cmd = sys.argv[1].lower()
     if cmd == "start": start()
     elif cmd == "stop": stop()
+<<<<<<< HEAD
     elif cmd == "vitals": process_vitals()
+=======
+>>>>>>> 6399826c9dfd1920340404734d18c15cfbcb6af1

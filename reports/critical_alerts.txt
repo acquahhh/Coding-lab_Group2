@@ -1,4 +1,4 @@
-Timestamp | Device_ID | Value | Source
+-e Timestamp | Device_ID | Value | Source
 ------------------------------------------------------------
 # Heart Rate CRITICAL Alerts
 2026-06-01 06:57:02 | WARD_A_HR_01 | 55 | Heart Rate
@@ -400,6 +400,91 @@ Timestamp | Device_ID | Value | Source
 2026-06-01 07:32:58 | WARD_A_HR_01 | 146 | Heart Rate
 2026-06-01 07:32:58 | WARD_A_HR_02 | 130 | Heart Rate
 2026-06-01 07:32:58 | WARD_A_HR_04 | 101 | Heart Rate
+2026-06-03 02:29:33 | WARD_A_HR_01 | 142 | Heart Rate
+2026-06-03 02:29:33 | WARD_A_HR_03 | 115 | Heart Rate
+2026-06-03 02:29:34 | WARD_A_HR_03 | 132 | Heart Rate
+2026-06-03 02:29:35 | WARD_A_HR_02 | 105 | Heart Rate
+2026-06-03 02:29:35 | WARD_A_HR_03 | 141 | Heart Rate
+2026-06-03 02:29:35 | WARD_A_HR_05 | 55 | Heart Rate
+2026-06-03 02:29:36 | WARD_A_HR_03 | 139 | Heart Rate
+2026-06-03 02:29:36 | WARD_A_HR_05 | 59 | Heart Rate
+2026-06-03 02:29:37 | WARD_A_HR_01 | 131 | Heart Rate
+2026-06-03 02:29:37 | WARD_A_HR_02 | 102 | Heart Rate
+2026-06-03 02:29:37 | WARD_A_HR_04 | 110 | Heart Rate
+2026-06-03 02:29:37 | WARD_A_HR_05 | 139 | Heart Rate
+2026-06-03 02:29:38 | WARD_A_HR_02 | 131 | Heart Rate
+2026-06-03 02:29:38 | WARD_A_HR_03 | 119 | Heart Rate
+2026-06-03 02:29:38 | WARD_A_HR_04 | 106 | Heart Rate
+2026-06-03 02:29:38 | WARD_A_HR_05 | 114 | Heart Rate
+2026-06-03 02:29:39 | WARD_A_HR_01 | 126 | Heart Rate
+2026-06-03 02:29:39 | WARD_A_HR_03 | 118 | Heart Rate
+2026-06-03 02:29:39 | WARD_A_HR_04 | 144 | Heart Rate
+2026-06-03 02:29:39 | WARD_A_HR_05 | 119 | Heart Rate
+2026-06-03 02:29:40 | WARD_A_HR_01 | 107 | Heart Rate
+2026-06-03 02:29:40 | WARD_A_HR_02 | 131 | Heart Rate
+2026-06-03 02:29:40 | WARD_A_HR_04 | 137 | Heart Rate
+2026-06-03 02:29:40 | WARD_A_HR_05 | 105 | Heart Rate
+2026-06-03 02:29:41 | WARD_A_HR_01 | 134 | Heart Rate
+2026-06-03 02:29:41 | WARD_A_HR_02 | 111 | Heart Rate
+2026-06-03 02:29:41 | WARD_A_HR_03 | 50 | Heart Rate
+2026-06-03 02:29:41 | WARD_A_HR_05 | 143 | Heart Rate
+2026-06-03 02:29:42 | WARD_A_HR_01 | 138 | Heart Rate
+2026-06-03 02:29:42 | WARD_A_HR_02 | 125 | Heart Rate
+2026-06-03 02:29:42 | WARD_A_HR_03 | 137 | Heart Rate
+2026-06-03 02:29:43 | WARD_A_HR_01 | 110 | Heart Rate
+2026-06-03 02:29:43 | WARD_A_HR_03 | 55 | Heart Rate
+2026-06-03 02:29:44 | WARD_A_HR_01 | 137 | Heart Rate
+2026-06-03 02:29:44 | WARD_A_HR_02 | 126 | Heart Rate
+2026-06-03 02:29:44 | WARD_A_HR_03 | 134 | Heart Rate
+2026-06-03 02:29:44 | WARD_A_HR_05 | 48 | Heart Rate
+2026-06-03 02:29:45 | WARD_A_HR_01 | 143 | Heart Rate
+2026-06-03 02:29:45 | WARD_A_HR_02 | 131 | Heart Rate
+2026-06-03 02:29:45 | WARD_A_HR_03 | 140 | Heart Rate
+2026-06-03 02:29:45 | WARD_A_HR_05 | 135 | Heart Rate
+2026-06-03 02:29:46 | WARD_A_HR_04 | 49 | Heart Rate
+2026-06-03 02:29:47 | WARD_A_HR_02 | 147 | Heart Rate
+2026-06-03 02:29:48 | WARD_A_HR_01 | 136 | Heart Rate
+2026-06-03 02:29:48 | WARD_A_HR_02 | 59 | Heart Rate
+2026-06-03 02:29:48 | WARD_A_HR_03 | 110 | Heart Rate
+2026-06-03 02:29:48 | WARD_A_HR_05 | 132 | Heart Rate
+2026-06-03 02:29:49 | WARD_A_HR_01 | 109 | Heart Rate
+2026-06-03 02:29:49 | WARD_A_HR_03 | 115 | Heart Rate
+2026-06-03 02:29:49 | WARD_A_HR_04 | 143 | Heart Rate
+2026-06-03 02:29:49 | WARD_A_HR_05 | 55 | Heart Rate
+2026-06-03 02:29:50 | WARD_A_HR_01 | 107 | Heart Rate
+2026-06-03 02:29:50 | WARD_A_HR_02 | 124 | Heart Rate
+2026-06-03 02:29:50 | WARD_A_HR_04 | 58 | Heart Rate
+2026-06-03 02:29:51 | WARD_A_HR_01 | 134 | Heart Rate
+2026-06-03 02:29:51 | WARD_A_HR_02 | 116 | Heart Rate
+2026-06-03 02:29:51 | WARD_A_HR_03 | 138 | Heart Rate
+2026-06-03 02:29:51 | WARD_A_HR_05 | 48 | Heart Rate
+2026-06-03 02:29:52 | WARD_A_HR_01 | 150 | Heart Rate
+2026-06-03 02:29:52 | WARD_A_HR_02 | 150 | Heart Rate
+2026-06-03 02:29:52 | WARD_A_HR_04 | 129 | Heart Rate
+2026-06-03 02:29:53 | WARD_A_HR_03 | 50 | Heart Rate
+2026-06-03 02:29:53 | WARD_A_HR_05 | 135 | Heart Rate
+2026-06-03 02:29:54 | WARD_A_HR_01 | 111 | Heart Rate
+2026-06-03 02:29:54 | WARD_A_HR_02 | 149 | Heart Rate
+2026-06-03 02:29:54 | WARD_A_HR_03 | 116 | Heart Rate
+2026-06-03 02:29:54 | WARD_A_HR_04 | 58 | Heart Rate
+2026-06-03 02:29:54 | WARD_A_HR_05 | 115 | Heart Rate
+2026-06-03 02:29:55 | WARD_A_HR_01 | 148 | Heart Rate
+2026-06-03 02:29:55 | WARD_A_HR_02 | 55 | Heart Rate
+2026-06-03 02:29:55 | WARD_A_HR_04 | 129 | Heart Rate
+2026-06-03 02:29:56 | WARD_A_HR_01 | 52 | Heart Rate
+2026-06-03 02:29:56 | WARD_A_HR_02 | 46 | Heart Rate
+2026-06-03 02:29:56 | WARD_A_HR_03 | 104 | Heart Rate
+2026-06-03 02:29:56 | WARD_A_HR_05 | 55 | Heart Rate
+2026-06-03 02:29:57 | WARD_A_HR_01 | 46 | Heart Rate
+2026-06-03 02:29:58 | WARD_A_HR_03 | 55 | Heart Rate
+2026-06-03 02:29:58 | WARD_A_HR_04 | 117 | Heart Rate
+2026-06-03 02:29:59 | WARD_A_HR_03 | 113 | Heart Rate
+2026-06-03 02:29:59 | WARD_A_HR_04 | 121 | Heart Rate
+2026-06-03 02:30:00 | WARD_A_HR_02 | 49 | Heart Rate
+2026-06-03 02:30:00 | WARD_A_HR_05 | 131 | Heart Rate
+2026-06-03 02:30:01 | WARD_A_HR_02 | 48 | Heart Rate
+2026-06-03 02:30:01 | WARD_A_HR_04 | 128 | Heart Rate
+2026-06-03 02:30:01 | WARD_A_HR_05 | 53 | Heart Rate
 
 # Temperature CRITICAL Alerts
 2026-06-01 06:57:01 | WARD_B_TEMP_03 | 39.7 | Temperature
@@ -775,3 +860,80 @@ Timestamp | Device_ID | Value | Source
 2026-06-01 07:32:58 | WARD_B_TEMP_01 | 34.9 | Temperature
 2026-06-01 07:32:58 | WARD_B_TEMP_04 | 39.1 | Temperature
 2026-06-01 07:32:58 | WARD_B_TEMP_05 | 39.9 | Temperature
+2026-06-03 02:29:33 | WARD_B_TEMP_01 | 38.4 | Temperature
+2026-06-03 02:29:33 | WARD_B_TEMP_05 | 39.9 | Temperature
+2026-06-03 02:29:34 | WARD_B_TEMP_02 | 38.1 | Temperature
+2026-06-03 02:29:34 | WARD_B_TEMP_03 | 38.9 | Temperature
+2026-06-03 02:29:35 | WARD_B_TEMP_01 | 39.6 | Temperature
+2026-06-03 02:29:35 | WARD_B_TEMP_02 | 39.9 | Temperature
+2026-06-03 02:29:35 | WARD_B_TEMP_05 | 39.2 | Temperature
+2026-06-03 02:29:36 | WARD_B_TEMP_02 | 40.3 | Temperature
+2026-06-03 02:29:37 | WARD_B_TEMP_01 | 34.6 | Temperature
+2026-06-03 02:29:37 | WARD_B_TEMP_03 | 35.4 | Temperature
+2026-06-03 02:29:37 | WARD_B_TEMP_04 | 40.3 | Temperature
+2026-06-03 02:29:37 | WARD_B_TEMP_05 | 39.9 | Temperature
+2026-06-03 02:29:38 | WARD_B_TEMP_01 | 38.2 | Temperature
+2026-06-03 02:29:38 | WARD_B_TEMP_03 | 35.0 | Temperature
+2026-06-03 02:29:39 | WARD_B_TEMP_04 | 39.0 | Temperature
+2026-06-03 02:29:39 | WARD_B_TEMP_05 | 40.2 | Temperature
+2026-06-03 02:29:40 | WARD_B_TEMP_01 | 34.7 | Temperature
+2026-06-03 02:29:40 | WARD_B_TEMP_02 | 38.9 | Temperature
+2026-06-03 02:29:40 | WARD_B_TEMP_03 | 39.2 | Temperature
+2026-06-03 02:29:40 | WARD_B_TEMP_05 | 39.3 | Temperature
+2026-06-03 02:29:41 | WARD_B_TEMP_02 | 38.6 | Temperature
+2026-06-03 02:29:41 | WARD_B_TEMP_04 | 39.8 | Temperature
+2026-06-03 02:29:41 | WARD_B_TEMP_05 | 39.7 | Temperature
+2026-06-03 02:29:42 | WARD_B_TEMP_01 | 38.7 | Temperature
+2026-06-03 02:29:42 | WARD_B_TEMP_04 | 39.9 | Temperature
+2026-06-03 02:29:42 | WARD_B_TEMP_05 | 39.2 | Temperature
+2026-06-03 02:29:43 | WARD_B_TEMP_01 | 39.7 | Temperature
+2026-06-03 02:29:43 | WARD_B_TEMP_04 | 34.9 | Temperature
+2026-06-03 02:29:43 | WARD_B_TEMP_05 | 35.4 | Temperature
+2026-06-03 02:29:44 | WARD_B_TEMP_01 | 38.5 | Temperature
+2026-06-03 02:29:44 | WARD_B_TEMP_02 | 34.8 | Temperature
+2026-06-03 02:29:44 | WARD_B_TEMP_04 | 35.0 | Temperature
+2026-06-03 02:29:45 | WARD_B_TEMP_01 | 39.6 | Temperature
+2026-06-03 02:29:45 | WARD_B_TEMP_02 | 34.7 | Temperature
+2026-06-03 02:29:46 | WARD_B_TEMP_01 | 38.3 | Temperature
+2026-06-03 02:29:46 | WARD_B_TEMP_02 | 35.2 | Temperature
+2026-06-03 02:29:46 | WARD_B_TEMP_04 | 34.7 | Temperature
+2026-06-03 02:29:46 | WARD_B_TEMP_05 | 40.5 | Temperature
+2026-06-03 02:29:47 | WARD_B_TEMP_02 | 38.5 | Temperature
+2026-06-03 02:29:47 | WARD_B_TEMP_04 | 39.2 | Temperature
+2026-06-03 02:29:47 | WARD_B_TEMP_05 | 34.9 | Temperature
+2026-06-03 02:29:48 | WARD_B_TEMP_01 | 35.0 | Temperature
+2026-06-03 02:29:48 | WARD_B_TEMP_03 | 39.9 | Temperature
+2026-06-03 02:29:48 | WARD_B_TEMP_04 | 40.1 | Temperature
+2026-06-03 02:29:48 | WARD_B_TEMP_05 | 38.3 | Temperature
+2026-06-03 02:29:49 | WARD_B_TEMP_01 | 38.3 | Temperature
+2026-06-03 02:29:49 | WARD_B_TEMP_05 | 35.1 | Temperature
+2026-06-03 02:29:50 | WARD_B_TEMP_01 | 40.0 | Temperature
+2026-06-03 02:29:50 | WARD_B_TEMP_03 | 35.1 | Temperature
+2026-06-03 02:29:51 | WARD_B_TEMP_02 | 38.9 | Temperature
+2026-06-03 02:29:51 | WARD_B_TEMP_03 | 39.8 | Temperature
+2026-06-03 02:29:51 | WARD_B_TEMP_05 | 38.7 | Temperature
+2026-06-03 02:29:52 | WARD_B_TEMP_01 | 40.4 | Temperature
+2026-06-03 02:29:52 | WARD_B_TEMP_04 | 39.6 | Temperature
+2026-06-03 02:29:52 | WARD_B_TEMP_05 | 40.1 | Temperature
+2026-06-03 02:29:53 | WARD_B_TEMP_01 | 39.2 | Temperature
+2026-06-03 02:29:53 | WARD_B_TEMP_02 | 39.1 | Temperature
+2026-06-03 02:29:53 | WARD_B_TEMP_04 | 35.4 | Temperature
+2026-06-03 02:29:54 | WARD_B_TEMP_01 | 38.4 | Temperature
+2026-06-03 02:29:54 | WARD_B_TEMP_02 | 39.2 | Temperature
+2026-06-03 02:29:54 | WARD_B_TEMP_03 | 39.6 | Temperature
+2026-06-03 02:29:54 | WARD_B_TEMP_04 | 34.9 | Temperature
+2026-06-03 02:29:55 | WARD_B_TEMP_02 | 35.0 | Temperature
+2026-06-03 02:29:55 | WARD_B_TEMP_03 | 38.1 | Temperature
+2026-06-03 02:29:56 | WARD_B_TEMP_01 | 38.6 | Temperature
+2026-06-03 02:29:56 | WARD_B_TEMP_02 | 34.8 | Temperature
+2026-06-03 02:29:56 | WARD_B_TEMP_05 | 34.5 | Temperature
+2026-06-03 02:29:58 | WARD_B_TEMP_01 | 35.1 | Temperature
+2026-06-03 02:29:58 | WARD_B_TEMP_02 | 38.4 | Temperature
+2026-06-03 02:29:59 | WARD_B_TEMP_01 | 38.8 | Temperature
+2026-06-03 02:30:00 | WARD_B_TEMP_01 | 40.0 | Temperature
+2026-06-03 02:30:00 | WARD_B_TEMP_02 | 38.9 | Temperature
+2026-06-03 02:30:00 | WARD_B_TEMP_04 | 38.8 | Temperature
+2026-06-03 02:30:00 | WARD_B_TEMP_05 | 40.3 | Temperature
+2026-06-03 02:30:01 | WARD_B_TEMP_02 | 38.1 | Temperature
+2026-06-03 02:30:01 | WARD_B_TEMP_04 | 39.3 | Temperature
+2026-06-03 02:30:01 | WARD_B_TEMP_05 | 35.3 | Temperature
