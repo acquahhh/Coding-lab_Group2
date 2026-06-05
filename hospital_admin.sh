@@ -1,7 +1,4 @@
 #!/bin/bash
-git add hospital_admin.sh
-git commit -m "Fix: replace // comments with correct bash # comments"
-git push origin master
 # hospital_admin.sh
 initialize_system() {
     echo "Creating required directories..."
