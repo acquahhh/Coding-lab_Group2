@@ -1,6 +1,5 @@
 #!/bin/bash
 # hospital_analysis.sh
-
 process_vitals() {
     echo "Processing critical vitals..."
     mkdir -p reports
@@ -11,7 +10,6 @@ process_vitals() {
         awk -F'|' '{printf "%-24s %-22s %s\n", $1,$2,$3}' >> reports/critical_alerts.txt
     echo "Critical alerts saved to reports/critical_alerts.txt"
 }
-
 water_audit() {
     awk -F'|' '/ICU_WATER_RESERVE/ {sum+=$3; count++}
     END {
@@ -22,6 +20,5 @@ water_audit() {
         printf "+---------------------------------+\n"
     }' active_logs/water_usage_log.log
 }
-
 process_vitals
 water_audit
