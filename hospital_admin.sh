@@ -1,4 +1,4 @@
-#!/bhange // to #
+#!/bin/bash
 git add hospital_admin.sh
 git commit -m "Fix: replace // comments with correct bash # comments"
 git push origin master
